@@ -1,1 +1,1 @@
-web: gunicorn trafficanalysis.wsgi --log-file -
+web: gunicorn trafficanalysis/trafficanalysis.wsgi --log-file -
